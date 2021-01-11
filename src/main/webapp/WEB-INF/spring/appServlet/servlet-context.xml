@@ -27,7 +27,8 @@
 	
 	<!-- 기본패키지를 추가 -->
 	<context:component-scan base-package="springboard.controller" />
-
+	
+	<!-- property : setter -->
 	<!--  SPRING JDBC를 사용하기 위한 빈 생성 -->	
 	<beans:bean name="dataSource" 
 		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
